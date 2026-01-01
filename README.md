@@ -1,12 +1,13 @@
 
-# User Management – Vercel Serverless Version
+# User Management API – Vercel Final
 
-## Local test
+## Local run
 pip install -r requirements.txt
 uvicorn main:app --reload
 
 ## Deploy to Vercel
-vercel deploy
+vercel --prod
 
-✔ Compatible with Vercel Serverless
-✔ No deployment queue freeze
+✔ No Mangum
+✔ No sqlite
+✔ Fully compatible with Vercel Serverless
